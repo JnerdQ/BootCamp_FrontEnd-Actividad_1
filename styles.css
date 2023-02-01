@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #009b77;
+  font-weight: bold;
+  font-size: medium;
+  padding: 1.1rem;
+
+}
+
+.resturante {
+  align-self: flex-start;
+}
+
+.material-symbols-outlined {
+  position: relative;
+  top: 5px;
+  margin: 0 1rem;
+}
+.material-symbols-outlined:last-child {
+  margin-right: 0;
+}
+.iconos {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  color: white;
+  margin: 1rem;
+}
+a:hover {
+  text-decoration-line: underline;
+}
+
+body {
+  background: whitesmoke;
+}
+
+main {
+  margin: 3rem 8rem 3rem 8rem;
+}
+.platillos {
+  margin: 2rem 0;
+}
+article {
+  margin-bottom: 2rem;
+  border-radius: 25% 10%;
+  border: solid 5px #009b77;
+}
+.contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.description {
+  margin: 4rem;
+}
+
+.img-platillos {
+  border-radius: 250px;
+  width: 35%;
+  height: 35%;
+  margin-left: 1rem;
+}
+
+h2,h3 {
+  margin: 2rem;
+  text-align: center;
+}
+
+
+
+
+.lema-description {
+  padding: 2rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  background-color: #009b77;
+  font-weight: bold;
+  font-size: medium;
+  padding: 1.25rem;
+  margin: auto;
+
+
+}
